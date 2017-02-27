@@ -1,0 +1,9 @@
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\bin\Debug\vsrpp_4.exe.config
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\bin\Debug\vsrpp_4.exe
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\bin\Debug\vsrpp_4.pdb
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\obj\Debug\vsrpp_4.csprojResolveAssemblyReference.cache
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\obj\Debug\vsrpp_4.Form1.resources
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\obj\Debug\vsrpp_4.Properties.Resources.resources
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\obj\Debug\vsrpp_4.csproj.GenerateResource.Cache
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\obj\Debug\vsrpp_4.exe
+E:\study\1_Study\BarsuEngineeringFaculty\mvs_3c_2s\vsrpp_4\vsrpp_4\obj\Debug\vsrpp_4.pdb
