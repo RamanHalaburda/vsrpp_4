@@ -53,6 +53,12 @@ namespace vsrpp_4
             string fileName = Path.GetFileNameWithoutExtension(b);
             string fileExtension = Path.GetExtension(b);
             MessageBox.Show(String.Format("Путь:  {0}\r\nИмя  файла: {1}\r\nТип файла: {2}", b, fileName, fileExtension)); 
+        
+            
+
+            MessageBox.Show(String.Format("Путь  к  временному  каталогу: {0}", Path.GetTempPath())); 
+        
+        
         }
     }
 }
