@@ -26,58 +26,98 @@ namespace vsrpp_4
          */
 
         private String folder = null;
+        private String logFile = "logfile.txt";
+        DirectoryInfo d;
+        FileInfo[] finfo;
 
         private void Form1_Load(object sender, EventArgs e)
         {
             groupBox2.Enabled = false;
-
-            /*
-            string a = @"C:\Каталог 1\Каталог 2\Каталог 3\Файл.exe";
-            if (Path.HasExtension(a))
-            {
-                MessageBox.Show("Есть расширение, скорей всего это файл.");
-            }
-            else
-            {
-                MessageBox.Show("Нет расширения, возможно это не файл.");
-            }
-
-            MessageBox.Show(File.GetAttributes(@"C:\Windows").ToString());
-            MessageBox.Show(File.GetAttributes(@"C:\Windows\notepad.exe").ToString()); 
-
-            string с = @"C:\Каталог 1\Каталог 2\Каталог 3\Файл.exe";
-            string p = Path.GetDirectoryName(с);
-            MessageBox.Show(p); 
-
-            string b = @"C:\Каталог 1\Каталог 2\Каталог 3\Файл.exe";
-            string fileName = Path.GetFileNameWithoutExtension(b);
-            string fileExtension = Path.GetExtension(b);
-            MessageBox.Show(String.Format("Путь:  {0}\r\nИмя  файла: {1}\r\nТип файла: {2}", b, fileName, fileExtension)); 
-
-            MessageBox.Show(String.Format("Путь  к  временному  каталогу: {0}", Path.GetTempPath()));
-            */
-
-            
-        
+            label1.Visible = false;
+            checkedListBox1.Items.Clear();
+            textBox1.Visible = false;
         }
 
         private void btnSelectFolder_Click(object sender, EventArgs e)
         {
-            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            using (var fbd = new FolderBrowserDialog())
             {
-                StreamReader sr = new StreamReader(openFileDialog1.FileName, Encoding.UTF8);
-                folder = openFileDialog1.FileName;
-                label1.Text = Path.GetFileName(openFileDialog1.FileName);
-                //sb1.Append(sr.ReadToEnd());
-                sr.Close();
+                DialogResult result = fbd.ShowDialog();
 
-                groupBox2.Enabled = true;
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+                {
+                    label1.Visible = true;
+                    folder = fbd.SelectedPath;
+                    label1.Text = Path.GetFileName(folder);
+                    groupBox2.Enabled = true;
+                }
             }
         }
 
         private void btnDoSearch_Click(object sender, EventArgs e)
         {
-            string[] findFiles = System.IO.Directory.GetFiles(@label1.Text, "*.jpg", System.IO.SearchOption.AllDirectories);
+            FileStream file = new FileStream(logFile, FileMode.Append, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(file);
+            sw.WriteLine("\n");
+
+            var fnames = Directory.GetFiles(folder, "*.jpg").Select(Path.GetFileName);
+            d = new DirectoryInfo(folder);
+            finfo = d.GetFiles("*.jpg");
+
+            UInt16 i = 0;
+            foreach (var f in fnames)
+            {
+                i++;
+                Console.WriteLine("The number of the file being renamed is: {0}", i);
+                sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
+
+                checkedListBox1.Items.Add(f);
+            }
+            sw.Close();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+                textBox1.Visible = true;
+            else
+                textBox1.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FileStream file = new FileStream(logFile, FileMode.Append, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(file);
+            sw.WriteLine("\n");
+
+            var fnames = Directory.GetFiles(folder, "*.jpg").Select(Path.GetFileName);
+            d = new DirectoryInfo(folder);
+            finfo = d.GetFiles("*.jpg");
+
+            UInt16 i = 0;
+            foreach (var f in fnames)
+            {
+                i++;
+                Console.WriteLine("The number of the file being renamed is: {0}", i);
+                sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
+
+                if (!File.Exists(Path.Combine(folder, f.ToString().Replace("(", "").Replace(")", ""))))
+                {
+                    File.Move(Path.Combine(folder, f), Path.Combine(folder, f.ToString().Replace("(", "").Replace(")", "")));
+                }
+                else
+                {
+                    Console.WriteLine("The file you are attempting to rename already exists! The file path is {0}.", folder);
+                    sw.WriteLine(String.Concat("The file you are attempting to rename already exists! The file path is .", folder));
+                    foreach (FileInfo fi in finfo)
+                    {
+                        Console.WriteLine("The file modify date is: {0} ", File.GetLastWriteTime(folder));
+                        sw.WriteLine(String.Concat("The file modify date is:  ", File.GetLastWriteTime(folder)));
+                    }
+                }
+            }
+
+            sw.Close();
         }
     }
 }
@@ -377,4 +417,4 @@ namespace vsrpp_4
 
         #endregion
     }
- * /
+ */
