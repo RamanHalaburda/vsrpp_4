@@ -31,7 +31,9 @@ namespace vsrpp_4
         {
             groupBox2.Enabled = false;
             label1.Visible = false;
-            checkedListBox1.Items.Clear();
+            dataGridView1.Rows.Clear();
+            dataGridView1.Columns[0].Width = 60;
+            dataGridView1.Columns[1].Width = 350;
             textBox1.Visible = false;
             textBox2.Visible = false;
         }
@@ -54,6 +56,7 @@ namespace vsrpp_4
 
         private void btnDoSearch_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
             FileStream file = new FileStream(logFile, FileMode.Append, FileAccess.Write);
             StreamWriter sw = new StreamWriter(file);
             sw.WriteLine("\n");
@@ -70,11 +73,13 @@ namespace vsrpp_4
 
             UInt16 i = 0;
             foreach (var f in fnames)
-            {
-                i++;
+            {                
                 sw.WriteLine(String.Concat("The number of the searched file is: ", i));
 
-                checkedListBox1.Items.Add(f);
+                dataGridView1.Rows.Add();
+                dataGridView1.Rows[i].HeaderCell.Value = i.ToString();
+                dataGridView1.Rows[i].Cells[1].Value = f;
+                i++;
             }
             sw.Close();
         }
@@ -108,7 +113,7 @@ namespace vsrpp_4
                 i++;
                 sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
 
-                if (checkedListBox1.CheckedItems.Contains(i))
+                if ((Boolean)dataGridView1.Rows[i].Cells[0].Value)
                 {
                     File.Move(Path.Combine(folder, f), Path.Combine(folder, renameTemplate + i.ToString()));
                 }
@@ -123,9 +128,29 @@ namespace vsrpp_4
             }
             */
 
-            // MUST REMAKE ALL WITH DataGridView WITHOUT CheckedListBox
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                if (Convert.ToBoolean(row.Cells[0].Value))
+                {
+                    File.Move(
+                        Path.Combine(folder, row.Cells[1].Value.ToString()), 
+                        Path.Combine(folder, renameTemplate + i.ToString()));
+                }
+                else
+                {
+                    sw.WriteLine(String.Concat("File is not checked ", folder));
+                    foreach (FileInfo fi in finfo)
+                    {
+                        sw.WriteLine(String.Concat("The file modify date is:  ", File.GetLastWriteTime(folder)));
+                    }
+                }
+            
+            }
+            
 
-            foreach (Object item in checkedListBox1.Items)
+            // MUST REMAKE ALL WITH DataGridView WITHOUT CheckedListBox
+            /*
+            foreach (Object item in dataGridView1.Rows)
             {
                 i++;
                 sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
@@ -150,7 +175,7 @@ namespace vsrpp_4
                 //int index = checkedListBox1.Items.IndexOf(item);
                 //Console.WriteLine("{0}:{1}", item, index);
             }
-
+            */
             sw.Close();
         }
 

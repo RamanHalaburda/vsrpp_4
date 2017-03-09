@@ -1,0 +1,580 @@
+The number of the file being renamed is: 1
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 2
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 3
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+
+
+The number of the file being renamed is: 1
+The number of the file being renamed is: 2
+The number of the file being renamed is: 3
+
+
+The number of the file being renamed is: 1
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 2
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 3
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+
+
+The number of the file being renamed is: 1
+The number of the file being renamed is: 2
+The number of the file being renamed is: 3
+
+
+The number of the file being renamed is: 1
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 2
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 3
+The file you are attempting to rename already exists! The file path is .E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+
+
+The number of the file being renamed is: 1
+The number of the file being renamed is: 2
+The number of the file being renamed is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+
+
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the file being renamed is: 1
+File is not checked E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 2
+File is not checked E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 3
+File is not checked E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the file being renamed is: 1
+File is not checked E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 2
+File is not checked E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The number of the file being renamed is: 3
+File is not checked E:\pics
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+The file modify date is:  08.03.2017 23:53:23
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+
+
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+The file modify date is:  09.03.2017 23:10:06
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:10:37
+The file modify date is:  09.03.2017 23:10:37
+The file modify date is:  09.03.2017 23:10:37
+The file modify date is:  09.03.2017 23:10:37
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+
+
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:11:40
+The file modify date is:  09.03.2017 23:11:40
+The file modify date is:  09.03.2017 23:11:40
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:11:40
+The file modify date is:  09.03.2017 23:11:40
+The file modify date is:  09.03.2017 23:11:40
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:11:40
+The file modify date is:  09.03.2017 23:11:40
+The file modify date is:  09.03.2017 23:11:40
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:15
+The file modify date is:  09.03.2017 23:13:15
+The file modify date is:  09.03.2017 23:13:15
+
+
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+The number of the searched file is: 9
+
+
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+The number of the searched file is: 9
+
+
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:13:49
+File is not checked E:\pics
+The file modify date is:  09.03.2017 23:13:49
+The file modify date is:  09.03.2017 23:1
+
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+The number of the searched file is: 9
+
+
+The number of the searched file is: 0
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+
+
+The number of the searched file is: 0
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+
+
+The number of the searched file is: 0
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+The number of the searched file is: 9
+The number of the searched file is: 10
+The number of the searched file is: 11
+The number of the searched file is: 12
+The number of the searched file is: 13
+The number of the searched file is: 14
+The number of the searched file is: 15
+The number of the searched file is: 16
+The number of the searched file is: 17
+The number of the searched file is: 18
+The number of the searched file is: 19
+The number of the searched file is: 20
+
+
+The number of the searched file is: 0
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+The number of the searched file is: 9
+The number of the searched file is: 10
+The number of the searched file is: 11
+The number of the searched file is: 12
+The number of the searched file is: 13
+The number of the searched file is: 14
+The number of the searched file is: 15
+The number of the searched file is: 16
+The number of the searched file is: 17
+The number of the searched file is: 18
+The number of the searched file is: 19
+The number of the searched file is: 20
+
+
+The number of the searched file is: 0
+The number of the searched file is: 1
+The number of the searched file is: 2
+The number of the searched file is: 3
+The number of the searched file is: 4
+The number of the searched file is: 5
+The number of the searched file is: 6
+The number of the searched file is: 7
+The number of the searched file is: 8
+The number of the searched file is: 9
+The number of the searched file is: 10
+The number of the searched file is: 11
+The number of the searched file is: 12
+The number of the searched file is: 13
+The number of the searched file is: 14
+The number of the searched file is: 15
+The number of the searched file is: 16
+The number of the searched file is: 17
+The number of the searched file is: 18
+The number of the searched file is: 19
+The number of the searched file is: 20
