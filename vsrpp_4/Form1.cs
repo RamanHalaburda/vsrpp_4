@@ -13,13 +13,10 @@ namespace vsrpp_4
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        public Form1() { InitializeComponent(); }
 
         /*
-         * Создать  приложение  для  поиска  файлов  с  заданным 
+           Создать  приложение  для  поиска  файлов  с  заданным 
             именем/расширением из указанного места. Вывести полный путь найденных 
             файлов.  Предусмотреть  возможность  группового  переименования.  В 
             процессе работы приложения вести текстовый файл с результатами работы. 
@@ -27,8 +24,8 @@ namespace vsrpp_4
 
         private String folder = null;
         private String logFile = "logfile.txt";
-        DirectoryInfo d;
-        FileInfo[] finfo;
+        private DirectoryInfo d;
+        private FileInfo[] finfo;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -36,6 +33,7 @@ namespace vsrpp_4
             label1.Visible = false;
             checkedListBox1.Items.Clear();
             textBox1.Visible = false;
+            textBox2.Visible = false;
         }
 
         private void btnSelectFolder_Click(object sender, EventArgs e)
@@ -60,20 +58,108 @@ namespace vsrpp_4
             StreamWriter sw = new StreamWriter(file);
             sw.WriteLine("\n");
 
-            var fnames = Directory.GetFiles(folder, "*.jpg").Select(Path.GetFileName);
+            String template;
+            if (checkBox1.Checked)
+                template = textBox1.Text;
+            else
+                template = "*.*";
+
+            var fnames = Directory.GetFiles(folder, template).Select(Path.GetFileName);
             d = new DirectoryInfo(folder);
-            finfo = d.GetFiles("*.jpg");
+            finfo = d.GetFiles(template);
 
             UInt16 i = 0;
             foreach (var f in fnames)
             {
                 i++;
-                Console.WriteLine("The number of the file being renamed is: {0}", i);
-                sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
+                sw.WriteLine(String.Concat("The number of the searched file is: ", i));
 
                 checkedListBox1.Items.Add(f);
             }
             sw.Close();
+        }
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FileStream file = new FileStream(logFile, FileMode.Append, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(file);
+            sw.WriteLine("\n");
+
+            String template;
+            if (checkBox1.Checked)
+                template = textBox1.Text;
+            else
+                template = "*.*";
+
+            String renameTemplate;
+            if (checkBox2.Checked)
+                renameTemplate = textBox1.Text;
+            else
+                renameTemplate = "defaultname";
+
+            var fnames = Directory.GetFiles(folder, template).Select(Path.GetFileName);
+                d = new DirectoryInfo(folder);
+                finfo = d.GetFiles(template);
+
+            UInt16 i = 0;
+            /*
+            foreach (var f in fnames)
+            {
+                i++;
+                sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
+
+                if (checkedListBox1.CheckedItems.Contains(i))
+                {
+                    File.Move(Path.Combine(folder, f), Path.Combine(folder, renameTemplate + i.ToString()));
+                }
+                else
+                {
+                    sw.WriteLine(String.Concat("File is not checked ", folder));
+                    foreach (FileInfo fi in finfo)
+                    {
+                        sw.WriteLine(String.Concat("The file modify date is:  ", File.GetLastWriteTime(folder)));
+                    }
+                }
+            }
+            */
+
+            // MUST REMAKE ALL WITH DataGridView WITHOUT CheckedListBox
+
+            foreach (Object item in checkedListBox1.Items)
+            {
+                i++;
+                sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
+
+                int index = checkedListBox1.Items.IndexOf(item);
+                if (checkedListBox1.CheckedItems.Contains(item))
+                {
+                    File.Move(Path.Combine(folder, item.ToString()), Path.Combine(folder, renameTemplate + i.ToString()));
+                }
+                else
+                {
+                    sw.WriteLine(String.Concat("File is not checked ", folder));
+                    foreach (FileInfo fi in finfo)
+                    {
+                        sw.WriteLine(String.Concat("The file modify date is:  ", File.GetLastWriteTime(folder)));
+                    }
+                }
+
+                //
+                //
+
+                //int index = checkedListBox1.Items.IndexOf(item);
+                //Console.WriteLine("{0}:{1}", item, index);
+            }
+
+            sw.Close();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+                textBox2.Visible = true;
+            else
+                textBox2.Visible = false;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -82,42 +168,6 @@ namespace vsrpp_4
                 textBox1.Visible = true;
             else
                 textBox1.Visible = false;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FileStream file = new FileStream(logFile, FileMode.Append, FileAccess.Write);
-            StreamWriter sw = new StreamWriter(file);
-            sw.WriteLine("\n");
-
-            var fnames = Directory.GetFiles(folder, "*.jpg").Select(Path.GetFileName);
-            d = new DirectoryInfo(folder);
-            finfo = d.GetFiles("*.jpg");
-
-            UInt16 i = 0;
-            foreach (var f in fnames)
-            {
-                i++;
-                Console.WriteLine("The number of the file being renamed is: {0}", i);
-                sw.WriteLine(String.Concat("The number of the file being renamed is: ", i));
-
-                if (!File.Exists(Path.Combine(folder, f.ToString().Replace("(", "").Replace(")", ""))))
-                {
-                    File.Move(Path.Combine(folder, f), Path.Combine(folder, f.ToString().Replace("(", "").Replace(")", "")));
-                }
-                else
-                {
-                    Console.WriteLine("The file you are attempting to rename already exists! The file path is {0}.", folder);
-                    sw.WriteLine(String.Concat("The file you are attempting to rename already exists! The file path is .", folder));
-                    foreach (FileInfo fi in finfo)
-                    {
-                        Console.WriteLine("The file modify date is: {0} ", File.GetLastWriteTime(folder));
-                        sw.WriteLine(String.Concat("The file modify date is:  ", File.GetLastWriteTime(folder)));
-                    }
-                }
-            }
-
-            sw.Close();
         }
     }
 }
